@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "Minseok Choi",
+    "label": "Web Programmer",
+    "picture": "",
+    "email": "cms9597@gmail.com",
+    "website": "",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Curzy",
+        "url": "https://www.github.com/Curzy"
+      },
+      {
+        "network": "Facebook",
+        "username": "Minseok Choi",
+        "url": "https://www.facebook.com/Curzy.choi"
+      },
+      {
+        "network": "Tumblr",
+        "username": "Curzy95",
+        "url": "https://curzy95.tumblr.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "BalanceCareer",
+      "position": "Web Programmer",
+      "website": "https://studysearch.co.kr/",
+      "startDate": "2016-02-01",
+      "endDate": "2016-10-01",
+      "summary": "발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 약 반년간은 세일즈 팀에서 예비고객을 실제 결제한 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 개발하고 있습니다.",
+      "highlights": [
+        "Django view에서 데이터를 처리하고 JSON으로 보내어 React로 필터 등을 구현해 데이터를 볼 수 있게 하고 있습니다.",
+        "Flux를 활용해 다양한 컴포넌트, 페이지에서 동시에 갱신되는 Notification을 구현해보았습니다."
+      ]
+    },
+    {
+      "company": "Wolsemap",
+      "position": "Programmer",
+      "website": "http://curzy.xyz:8000/wolsemap/",
+      "startDate": "2016-02-01",
+      "endDate": "2016-10-01",
+      "summary": "서울 지하철 월세 지도. 독일의 부동산 사이트 immobilienscout24의 독일 도시별 지하철 노선도 주변 one-room apartment의 평균 가격을 나타내는 Miet-Map에 영향을 받아 시작한 프로젝트 입니다. 서울 수도권 지하철 노선을 따라 조금 더 한국에 맞추어 보증금, 월세의 평균 정보를 나타내어 서울에서, 홀로, 살기 위해 가장 기본적이고 중요한 '주'의 비용이 어느정도 필요하다는 지표를 보여주려 하였습니다.",
+      "highlights": [
+        "nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.",
+        "Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.",
+        "Will: 호선별, 지역별 데이터 통계, 그래프 제공, async"
+      ]
+    },
+    {
+      "company": "Vingle",
+      "position": "Internship",
+      "website": "https://vingle.net/",
+      "startDate": "2015-04-14",
+      "endDate": "2015-07-10",
+      "summary": "서비스 기획 인턴십으로 다양한 주제에 대한 아이디에이션, 프로토타입 기획을 했습니다."
+    },
+    {
+      "company": "Samsung Electronics",
+      "position": "Assistant Engineer",
+      "website": "http://www.samsung.com/sec/",
+      "startDate": "2014-02-17",
+      "endDate": "2015-02-28",
+      "summary": "입사후 처음엔 개발용 시료들을 해외 연구소로 보내는 TF팀에서 통관 관련 서류 작업을 하였습니다. 개발과는 전혀 관련이 없는 업무였지만 업무중 마주하는 문제들을 프로그래밍을 활용해 해결했습니다. ",
+      "highlights": [
+        "해외로 보낼 시료들의 일련번호가 다른 양식으로 되어 시스템 처리가 되지 않을때 정규식을 활용해 파이썬으로 알맞는 양식으로 가공했고.",
+        "엑셀로 처리하던 업무를 간단한 웹으로 배송 요청을 받고 보낼 국가별 남은 요청 수, 등을 한눈에 볼 수 있게 하였습니다.",
+        "팀을 옮기게 되어 안드로이드 폰들의 네트워크 프로토콜을 QA하는 업무를 맡게 되었는데 윈도우 배치파일을 활용하여 테스트 과정을 일부 자동화 했습니다."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sunrin Internet Highschool",
+      "area": "Information & Communication",
+      "startDate": "2011-03-01",
+      "endDate": "2014-02-11",
+      "courses": [
+        "Programming Languages - C, Java",
+        "Network",
+        "Operationg System",
+        "Algorithm",
+        "Computer Graphic Tools"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Smarteen App Challenge 2013",
+      "date": "2013-11-01",
+      "awarder": "SK Planet",
+      "summary": "인간의 수면 패턴에 맞추어 알맞는 수면 시간을 설정할 수 있도록 유도하고 알람 30분 이내에 서서히 청각적 감각을 자극하고, 알람 시간이 되면 플래시를 활용해 사용자를 보다 잘 깨어날 수 있도록 유도하는 앱 1:30을 기획, 제작하였습니다."
+    },
+    {
+      "title": "Smarteen App Challenge 2012",
+      "date": "2012-11-01",
+      "awarder": "SK Planet",
+      "summary": "자전거 라이딩 매니지먼트 앱 PSYCLE을 기획, 제작하였습니다."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "C"
+      ]
+    },
+    {
+      "name": "Web Back-end",
+      "keywords": [
+        "Django",
+        "Celery",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Web Front-end",
+      "keywords": [
+        "ReactJS",
+        "Webpack",
+        "HTML",
+        "CSS",
+        "less"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "keywords": [
+        "AWS EC2",
+        "nginx"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": ""
+    },
+    {
+      "language": "English",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Game",
+      "keywords": [
+        "Warcraft Series",
+        "Dungeon Crawl Stone Soup"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Playing Guitar",
+        "Playing Bass",
+        "Funk",
+        "Disco",
+        "Jazz"
+      ]
+    },
+    {
+      "name": "냉면",
+      "keywords": [
+        "평양냉면",
+        "함흥냉면"
+      ]
+    }
+  ],
+  "references": []
+}
