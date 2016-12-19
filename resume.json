@@ -31,10 +31,12 @@
       "website": "https://studysearch.co.kr/",
       "startDate": "2016-02-01",
       "endDate": "2016-12-01",
-      "summary": "발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 몇개월간 세일즈 팀에서 예비고객을 실제 결제 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 개발하고 있습니다.",
+      "summary": "발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 몇개월간 세일즈 팀에서 예비고객을 실제 결제 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 주로 개발하고 있습니다.",
       "highlights": [
         "Django view에서 데이터를 처리하고 JSON으로 보내어 React로 필터 등을 구현해 데이터를 볼 수 있게 하고 있습니다.",
+        "상담을 동해 스터디를 소개할 때, 데스크탑과 모바일 환경 모두에서 커리큘럼과 리더의 소개를 더 잘 보일수 있는 소개 페이지를 제작 했습니다. ex) https://studysearch.co.kr/introduce/1734/",
         "Flux 패턴을 활용해 다양한 컴포넌트, 페이지에서 동시에 갱신되는 Notification을 구현했습니다.",
+        "매주 스터디룸의 예약목록을 스프레드 시트로 만들고, 각 스터디룸 담당자에게 보내고 예약이 가능한지 회신받는  과정을 Google Drive, Sheets API, xlsxwriter를 활용해 Celery 태스크로 자동화 하였습니다",
         "기존에 우선 기능 구현만을 위해 작성된 코드등을 보다 나은 가독성, 퍼포먼스를 위한 리팩토링, DB 쿼리 최적화를 하고 있습니다."
       ]
     },
@@ -49,7 +51,7 @@
         "nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.",
         "Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.",
         "Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.",
-        "Will: 호선별, 지역별 데이터 통계, 그래프 제공, async"
+        "Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 직방 크롤링"
       ]
     },
     {
@@ -108,8 +110,7 @@
       "name": "Programming Languages",
       "keywords": [
         "Python",
-        "Javascript",
-        "C"
+        "Javascript"
       ]
     },
     {
@@ -136,16 +137,24 @@
         "AWS EC2",
         "nginx"
       ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "vim",
+        "git",
+        "Pycharm"
+      ]
     }
   ],
   "languages": [
     {
       "language": "Korean",
-      "fluency": ""
+      "fluency": "Native Speaker"
     },
     {
       "language": "English",
-      "fluency": ""
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
@@ -169,8 +178,15 @@
     {
       "name": "냉면",
       "keywords": [
-        "평양냉면",
-        "함흥냉면"
+        "평양냉면"
+      ]
+    },
+    {
+      "name": "Recently Reading",
+      "keywords": [
+        "클린 코드를 위한 테스트 주도 개발 (파이썬을 이용한)",
+        "디스커버리 Go 언어",
+        "향수"
       ]
     }
   ],
