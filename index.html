@@ -1,390 +1,1104 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-<title>Minseok Choi</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-<style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}body,html{font-family:"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-size:13px;color:#40484f;font-weight:400;letter-spacing:0;line-height:1.46153846;text-align:left;webkit-text-size-adjust:100%;}p{display:block;margin-bottom:1.3em;}a{color:#0095ff;text-decoration:none;}a:hover{color:#0c65a5;text-decoration:underline;}ul{margin-top:1rem;}li{list-style-type:square;list-style-position:outside;margin-left:1.3em;}h1{font-size:2rem;}h2{font-size:1.67rem;}h3{font-size:1.27rem;}em{color:#757575;}blockquote{margin-bottom:1em;}strong{font-weight:700;}#resume{padding:1rem;margin-top:2rem;}.section{margin-bottom:1rem;}section .location{margin-right:.5em;color:#606d76;font-weight:700;}#contact{margin-top:.5rem;}#profiles .item{padding:0;}#header>#profiles,#header>#contact,#skills,#languages,#interests{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:flex-start;justify-content:flex-start;}#header>div{line-height:1.5;}#header>div>div{margin-right:1.2em;}#header h1.name{font-size:2.8rem;font-weight:100;line-height:100%;}#header h2.label{color:#202931;font-size:1.47rem;font-weight:300;}#header .picture{width:11em;float:right;border-radius:4px;}.main-summary{background:#f1f8ff;padding:1.2em 1em;margin-top:1rem;}.main-summary p{margin:.15em 0 0;}h2.section-title{display:inline-block;background:#fff;padding:0 1em 0.3em 0;color:#ff6d1f;text-transform:uppercase;font-weight:600;border:none;font-size:.9rem;}.section>header{position:relative;}.fa{margin-right:0.25em;}.section>header::after{position:absolute;left:0;top:.7em;height:1px;background:#ccc;content:"";width:100%;z-index:-100;display:block;}.section.main-summary>section{margin:0;}.section>section>header{font-size:1.38rem;position:relative;margin-top:.7em;}.section>section>header:first-of-type{margin:0;}.section>section>header .space-left{position:absolute;left:-1.56rem;top:5px;color:#aaa;line-height:1;opacity:0;}.position,.company,.organization,.institution,.date,.area,.studyType,.title,.awarder{display:inline-block;}.position,.studyType,.area,.title,.language,.name{font-weight:600;}.company::before,.institution::before,.organization::before,.awarder::before{content:"at "}.company,.institution,.organization,.awarder{color:#606d76;font-weight:400;}.section header .date{font-size:1rem;display:block;padding:.1em 0;font-weight:600;}ul.keywords,ul.courses{margin-top:.5em;}ul.keywords li,ul.courses li{display:inline-block;margin:2px 2px 2px 0;padding:4px 5px 5px;font-size:.9rem;line-height:1;text-transform:lowercase;color:#3e6d8e;background-color:#dfeaf1;border:0 solid #dfeaf1;white-space:nowrap;}ul.keywords li:hover,ul.courses li:hover{background:#dfeaf0;}.item{padding:.5em 0;}.gpa{padding-bottom:.5em;}.fa.social{font-size:1.1em;}.google-plus{color:#dd4b39;}.tumblr{color:#32506d;}.foursquare{color:#0072b1;}.facebook{color:#3b5998;}.linkedin{color:#007bb6;}.pinterest{color:#cb2027;}.dribbble{color:#ea4c89;}.instagram{color:#517fa4;}.twitter{color:#00aced;}.soundcloud{color:#ff3a00;}.wordpress{color:#21759b;}.youtube{color:#bb0000;}.github{color:#171515;}.stack-overflow{color:#828386;position:relative;}.flickr{color:#ff0084;}.stack-overflow::after{position:absolute;left:0;content:'\f16c';color:#f68a1f;overflow:hidden;height:40%;}#languages .item,#skills .item,#interests .item{width:15em;padding:0 .5em .5em 0;border-bottom:none;}#skills .item{width:16em;}#skills .item .keywords{width:15em;}.level{margin-bottom:.5em;}.level .bar{border:1px solid #ddd;display:block;width:10em;height:5px;position:relative;}.level .bar::after{position:absolute;content:" ";top:0;left:0;background:black;height:5px;}.level.beginner .bar::after{background:#EB5F51;width:2.5em;}.level.intermediate .bar::after{background:#ffdf1f;width:5em;}.level.advanced .bar::after,.level.fluent .bar::after{background:#5CB85C;width:7.5em;}.level.master .bar::after,.level.native.speaker .bar::after{background:#59C596;width:10em;}#references .item{padding-left:.5em;border-left:5px solid #ff6d1f;}.clear::after{content:"";display:table;clear:both;}.display{display:block;opacity:1!important;}.margin1{margin-bottom:.5rem;}@media screen and (min-width: 602px) {#resume{width:80%;margin:0 auto;}}@media screen and (min-width: 1025px) {li{margin-left:1.5em;}#resume{width:820px;margin:2rem auto;opacity:0;-webkit-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out;}.section>section>header .space-left{opacity:1;cursor:pointer;}.section>section{margin-left:1.67rem;}.company::before,.institution::before,.organization::before,.awarder::before{content:"| ";}.header-left{float:left;width:70%;word-break:normal;}.section header .date{float:right;padding:.2em;}.display{display:none;}.display:not(.none){display:block;}}@media print {#resume{margin:0;padding:0;-ms-word-wrap:break-word;word-wrap:break-word;line-height:1.3;}@page{margin:1cm 1.4cm;}.item-count{display:none;}.company::before,.institution::before,.organization::before,.awarder::before{content:"at ";}.main-summary{padding:2rem 0;}.section{margin:.8rem 0;padding:0;}.section header{padding-bottom:.15rem;}.section .location{padding-bottom:.15rem;}.stack-overflow::after{content:"";}.fa.social{color:#828386;}ul{margin-top:.4em;}ul,li{padding:0;}ul.keywords li,ul.courses li{margin:0;padding:0;font-size:.8rem;text-transform:lowercase;}ul.keywords li::after,ul.courses li::after{padding:0 0 0 .1rem;content:" |";}ul.keywords::before,ul.courses::before{font-size:.8rem;font-weight:600;}ul.keywords::before{content:"Skills acquired: ";}#skills .keywords::before{content:'';}.section p{margin:0;padding:0;}ul.courses::before{content:"Major courses: ";}ul.keywords li:last-of-type::after,ul.courses li:last-of-type::after{content:"";}.level em{font-style:normal;padding:.1em 0;}.level .bar{display:none;}#profiles .item{padding:0;}.item.display{display:block;opacity:1!important;}}</style>
-</head>
-<body>
-<div id="resume">
-<header id="header" class="clear">
-<div>
-<h1 class="name">Minseok Choi</h1>
-<h2 class="label">Web Programmer</h2>
-</div>
-<div id="contact">
-<div class="email">
-<span class="fa fa-envelope-o"></span>
-<a href="/cdn-cgi/l/email-protection#c0a3adb3f9f5f9f780a7ada1a9aceea3afad"><span class="__cf_email__" data-cfemail="b1d2dcc288848886f1d6dcd0d8dd9fd2dedc">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
-</div>
-</div>
-<div id="profiles">
-<div class="item">
-<div class="username">
-<span class="fa fa-github github social"></span>
-<span class="url">
-<a href="https://www.github.com/Curzy">Curzy</a>
-</span>
-</div>
-</div>
-<div class="item">
-<div class="username">
-<span class="fa fa-facebook facebook social"></span>
-<span class="url">
-<a href="https://www.facebook.com/Curzy.choi">Minseok Choi</a>
-</span>
-</div>
-</div>
-<div class="item">
-<div class="username">
-<span class="fa fa-tumblr tumblr social"></span>
-<span class="url">
-<a href="https://curzy95.tumblr.com">Curzy95</a>
-</span>
-</div>
-</div>
-</div>
-</header>
-<section class="section main-summary">
-<section>
-<div><p>생각하고, 만드는것을 좋아하는 프로그래머 최민석입니다. 이전의 경험들, 어플리케이션 기획, 제품의 신뢰도와 품질을 담당하는 QA, 실수가 있어서는 안되는 꼼꼼함이 요구되는 통관 사무, 서비스에 관심을 가진 예비 고객을 실제 고객으로 유치하는 세일즈 등 다양한 경험을 바탕으로, 다양한 각도에서 생각하고, 보다 나은 개발자가 되려고 학습합니다</p></div>
-</section>
-</section>
-<section class="section margin1">
-<header>
-<h2 class='section-title'>Skills</h2>
-</header>
-<section id="skills">
-<div class="item">
-<h3 class="name">
-Programming Languages
-</h3>
-<ul class="keywords">
-<li>Python</li>
-<li>Javascript</li>
-</ul>
-</div>
-<div class="item">
-<h3 class="name">
-Web Back-end
-</h3>
-<ul class="keywords">
-<li>Django</li>
-<li>Celery</li>
-<li>MySQL</li>
-</ul>
-</div>
-<div class="item">
-<h3 class="name">
-Web Front-end
-</h3>
-<ul class="keywords">
-<li>ReactJS</li>
-<li>Webpack</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>LESS</li>
-</ul>
-</div>
-<div class="item">
-<h3 class="name">
-Deployment
-</h3>
-<ul class="keywords">
-<li>AWS EC2</li>
-<li>nginx</li>
-</ul>
-</div>
-</section>
-</section>
-<section class="section">
-<header>
-<h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
-</header>
-<section id="work">
-<header>
-<span class="space-left">
-<span class="fa fa-caret-down"></span>
-</span>
-<div class="position">
-Web Programmer
-</div>
-<div class="company">
-BalanceCareer
-</div>
-<div class="date">
-<span class="startDate">
-February 2016
-</span>
-<span class="endDate">
-- December 2016
-</span>
-</div>
-</header>
-<span class="website">
-<a href="https://studysearch.co.kr/">https://studysearch.co.kr/</a>
-</span>
-<div class="item display" style="opacity:1">
-<div class="summary">
-<p><p>발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 몇개월간 세일즈 팀에서 예비고객을 실제 결제 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 개발하고 있습니다.</p></p>
-</div>
-<ul class="highlights">
-<li>Django view에서 데이터를 처리하고 JSON으로 보내어 React로 필터 등을 구현해 데이터를 볼 수 있게 하고 있습니다.</li>
-<li>Flux 패턴을 활용해 다양한 컴포넌트, 페이지에서 동시에 갱신되는 Notification을 구현했습니다.</li>
-<li>매주 스터디룸의 예약목록을 스프레드 시트로 만들고, 각 스터디룸 담당자에게 보내고 예약이 가능한지 회신받는 과정을 Google Drive, Sheets API, xlsxwriter를 활용해 Celery 태스크로 자동화 하였습니다</li>
-<li>기존에 우선 기능 구현만을 위해 작성된 코드등을 보다 나은 가독성, 퍼포먼스를 위한 리팩토링, DB 쿼리 최적화를 하고 있습니다.</li>
-</ul>
-</div>
-<header>
-<span class="space-left">
-<span class="fa fa-caret-right"></span>
-</span>
-<div class="position">
-Programmer
-</div>
-<div class="company">
-Wolsemap
-</div>
-<div class="date">
-<span class="startDate">
-February 2016
-</span>
-<span class="endDate">
-- December 2016
-</span>
-</div>
-</header>
-<span class="website">
-<a href="http://curzy.xyz/">http://curzy.xyz/</a>
-</span>
-<div class="item display none" style="opacity:0">
-<div class="summary">
-<p><p>서울 지하철 월세 지도. 독일의 부동산 사이트 immobilienscout24의 독일 도시별 지하철 노선도 주변 one-room apartment의 평균 가격을 나타내는 Miet-Map에 영향을 받아 시작한 프로젝트 입니다. 서울 수도권 지하철 노선을 따라 조금 더 한국에 맞추어 보증금, 월세의 평균 정보를 나타내어 서울에서, 홀로, 살기 위해 가장 기본적이고 중요한 '주'의 비용에 대한 기준을 세울 수 있는 지표를 보여주려 하였습니다.</p></p>
-</div>
-<ul class="highlights">
-<li>nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.</li>
-<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.</li>
-<li>Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.</li>
-<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async</li>
-</ul>
-</div>
-<header>
-<span class="space-left">
-<span class="fa fa-caret-right"></span>
-</span>
-<div class="position">
-Internship
-</div>
-<div class="company">
-Vingle
-</div>
-<div class="date">
-<span class="startDate">
-April 2015
-</span>
-<span class="endDate">
-- July 2015
-</span>
-</div>
-</header>
-<span class="website">
-<a href="https://vingle.net/">https://vingle.net/</a>
-</span>
-<div class="item display none" style="opacity:0">
-<div class="summary">
-<p><p>서비스 기획 인턴십으로 다양한 주제에 대한 아이디에이션, 프로토타입 기획을 했습니다.</p></p>
-</div>
-</div>
-<header>
-<span class="space-left">
-<span class="fa fa-caret-right"></span>
-</span>
-<div class="position">
-Assistant Engineer
-</div>
-<div class="company">
-Samsung Electronics
-</div>
-<div class="date">
-<span class="startDate">
-February 2014
-</span>
-<span class="endDate">
-- February 2015
-</span>
-</div>
-</header>
-<span class="website">
-<a href="http://www.samsung.com/sec/">http://www.samsung.com/sec/</a>
-</span>
-<div class="item display none" style="opacity:0">
-<div class="summary">
-<p><p>입사후 처음엔 개발용 시료들을 해외 연구소로 보내는 TF팀에서 통관 관련 서류 작업을 하였습니다. 개발과는 전혀 관련이 없는 업무였지만 업무중 마주하는 문제들을 프로그래밍을 활용해 해결했습니다. </p></p>
-</div>
-<ul class="highlights">
-<li>해외로 보낼 시료들의 일련번호가 다른 양식으로 되어 시스템 처리가 되지 않을때 정규식을 활용해 파이썬으로 알맞는 양식으로 가공했고.</li>
-<li>Nodejs를 활용한 간단한 웹으로 배송 요청을 받고 보낼 국가별 남은 요청 수, 등을 한눈에 볼 수 있게 하였습니다.</li>
-<li>이후, 안드로이드 폰들의 네트워크 프로토콜을 QA하는 업무를 맡게 되었는데, 테스트 과정에서의 불편한 작업, 반복 작업등을 효율화 하는것을 고민하고, 윈도우 배치파일을 활용하여 테스트 과정을 일부 자동화 했습니다.</li>
-</ul>
-</div>
-</section>
-</section>
-<section class="section">
-<header>
-<h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
-</header>
-<section id="education">
-<header class="clear">
-<span class="space-left">
-<span class="fa fa-caret-down"></span>
-</span>
-<div class="header-left">
-<div class="area">
-Information &amp; Communication
-</div>
-<div class="institution">
-Sunrin Internet Highschool
-</div>
-</div>
-<div class="date">
-<span class="startDate">
-2011
-</span>
-<span class="endDate">
-- 2014
-</span>
-</div>
-</header>
-<ul class="courses">
-<li>Programming Languages - C, Java</li>
-<li>Network</li>
-<li>Operationg System</li>
-<li>Algorithm</li>
-<li>Computer Graphic Tools</li>
-</ul>
-<div class="item display" style="opacity:1">
-</div>
-</section>
-</section>
-<section class="section">
-<header>
-<h2 class='section-title'>Awards</h2>
-</header>
-<section id="awards">
-<header class="clear">
-<span class="space-left">
-<span class="fa fa-caret-down"></span>
-</span>
-<div class="header-left">
-<div class="title">
-Smarteen App Challenge 2013
-</div>
-<div class="awarder">
-SK Planet
-</div>
-</div>
-<div class="date">
-2013
-</div>
-</header>
-<div class="item display" style="opacity:1">
-<div class="summary">
-<p><p>인간의 수면 패턴에 맞추어 알맞는 수면 시간을 설정할 수 있도록 유도하고 알람 30분 이내에 서서히 청각적 감각을 자극하고, 알람 시간이 되면 플래시를 활용해 사용자를 보다 잘 깨어날 수 있도록 유도하는 앱 1:30을 기획, 제작하였습니다.</p></p>
-</div>
-</div>
-<header class="clear">
-<span class="space-left">
-<span class="fa fa-caret-right"></span>
-</span>
-<div class="header-left">
-<div class="title">
-Smarteen App Challenge 2012
-</div>
-<div class="awarder">
-SK Planet
-</div>
-</div>
-<div class="date">
-2012
-</div>
-</header>
-<div class="item display none" style="opacity:0">
-<div class="summary">
-<p><p>사용자의 이동 경로, 앞으로의 목표까지의 가이드, 열량소모, 속도계, 수분 소모량 등 자전거 라이딩시 사용자에게 필요한 정보를 제공하는, 자전거 라이딩 매니지먼트 앱 PSYCLE을 기획, 제작하였습니다. 개발을 진행하며 UX에 대한 고민, 사용자가 자전거에 스마트폰 거치대를 설치하고 운전 도중 얼마나 전방에서 시선을 떼는것을 최소화 하고 필요한 정보를 얻을 수 있을지, 핸들에서 손을 놓고 폰을 조작하는 일을 최소화 할 수 있을지 직접 자전거를 타며 테스트하고 생각하며 보다 나은 경험을 제공할 수 있도록 고민해왔습니다.</p></p>
-</div>
-</div>
-</section>
-</section>
-<section class="section margin1">
-<header>
-<h2 class='section-title'>Languages</h2>
-</header>
-<section id="languages">
-<div class="display">
-<h3 class="language">
-Korean
-</h3>
-<div class="item">
-<div class="level fluency native speaker">
-<em>Native Speaker</em>
-<div class="bar"></div>
-</div>
-</div>
-</div>
-<div class="display">
-<h3 class="language">
-English
-</h3>
-<div class="item">
-<div class="level fluency intermediate">
-<em>Intermediate</em>
-<div class="bar"></div>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section class="section margin1">
-<header>
-<h2 class='section-title' class='section-title'>Interests</h2>
-</header>
-<section id="interests">
-<div class="item">
-<h3 class="name">
-Game
-</h3>
-<ul class="keywords">
-<li>Warcraft Series</li>
-<li>Dungeon Crawl Stone Soup</li>
-</ul>
-</div>
-<div class="item">
-<h3 class="name">
-Music
-</h3>
-<ul class="keywords">
-<li>Playing Guitar</li>
-<li>Playing Bass</li>
-<li>Funk</li>
-<li>Disco</li>
-<li>Jazz</li>
-</ul>
-</div>
-<div class="item">
-<h3 class="name">
-냉면
-</h3>
-<ul class="keywords">
-<li>평양냉면</li>
-<li>함흥냉면</li>
-</ul>
-</div>
-</section>
-</section>
-</div>
-<script>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<title>Minseok Choi</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+		<style>
+			/********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    webkit-text-size-adjust: 100%;
+}
+
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
+
+a {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* main container */
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* every section wrapper */
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header > div {
+    line-height: 1.5;
+}
+
+#header > div > div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section > header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section > header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary > section {
+    margin: 0;
+}
+
+.section > section > header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section > section > header:first-of-type {
+    margin: 0;
+}
+
+.section > section > header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline-block;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "at "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: block;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 40%;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+/* Skill chart */
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+/****************
+*		TABLET
+****************/
+@media screen and (min-width: 602px) {
+    #resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/****************
+*		LAPTOP
+****************/
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+
+    #resume {
+        width: 820px;
+        margin: 2rem auto;
+        opacity: 0;
+        -webkit-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+    }
+
+    .section > section > header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .section > section {
+        margin-left: 1.67rem;
+    }
+
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+
+    .display {
+        display: none;
+    }
+
+    .display:not(.none) {
+        display: block;
+    }
+
+}
+
+@media print {
+
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+
+    @page {
+        margin: 1cm 1.4cm;
+    }
+
+    .item-count {
+        display: none;
+    }
+
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+
+    .main-summary {
+        padding: 2rem 0;
+    }
+
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+
+    .section header {
+        padding-bottom: .15rem;
+    }
+
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+
+    .fa.social {
+        color: #828386;
+    }
+
+    ul {
+        margin-top: .4em;
+    }
+
+    ul, li {
+        padding: 0;
+    }
+
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+
+    #skills .keywords::before {
+        content: '';
+    }
+
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+
+    .level .bar {
+        display: none;
+    }
+
+    #profiles .item {
+        padding: 0;
+    }
+
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+		</style>
+	</head>
+
+	<body>
+		<div id="resume">
+				<header id="header" class="clear">
+						<div>
+							<h1 class="name">Minseok Choi</h1>
+							<h2 class="label">Web Programmer</h2>
+						</div>
+
+                    
+					<div id="contact">
+						<div class="email">
+              <span class="fa fa-envelope-o"></span>
+							<a href="mailto:cms9597@gmail.com">cms9597@gmail.com</a>
+						</div>
+					</div>
+
+					<div id="profiles">
+						<div class="item">
+								<div class="username">
+									<span class="fa fa-github github social"></span>
+									<span class="url">
+										<a href="https://www.github.com/Curzy">Curzy</a>
+									</span>
+								</div>
+						</div>
+						<div class="item">
+								<div class="username">
+									<span class="fa fa-facebook facebook social"></span>
+									<span class="url">
+										<a href="https://www.facebook.com/Curzy.choi">Minseok Choi</a>
+									</span>
+								</div>
+						</div>
+						<div class="item">
+								<div class="username">
+									<span class="fa fa-tumblr tumblr social"></span>
+									<span class="url">
+										<a href="https://curzy95.tumblr.com">Curzy95</a>
+									</span>
+								</div>
+						</div>
+					</div>
+				</header>
+
+					<section class="section main-summary">
+						<section>
+							<div><p>생각하고, 만드는것을 좋아하는 프로그래머 최민석입니다. 이전의 경험들, 어플리케이션 기획, 제품의 신뢰도와 품질을 담당하는 QA, 실수가 있어서는 안되는 꼼꼼함이 요구되는 통관 사무, 서비스에 관심을 가진 예비 고객을 실제 고객으로 유치하는 세일즈 등 다양한 경험을 바탕으로, 다양한 각도에서 생각하고, 보다 나은 개발자가 되려고 학습합니다</p></div>
+						</section>
+					</section>
+
+				<section class="section margin1">
+					<header>
+						<h2 class='section-title'>Skills</h2>
+					</header>
+					<section id="skills">
+						<div class="item">
+							<h3 class="name">
+								Programming Languages
+							</h3>
+							<ul class="keywords">
+								<li>Python</li>
+								<li>Javascript</li>
+							</ul>
+						</div>
+						<div class="item">
+							<h3 class="name">
+								Web Back-end
+							</h3>
+							<ul class="keywords">
+								<li>Django</li>
+								<li>Celery</li>
+								<li>MySQL</li>
+							</ul>
+						</div>
+						<div class="item">
+							<h3 class="name">
+								Web Front-end
+							</h3>
+							<ul class="keywords">
+								<li>ReactJS</li>
+								<li>Webpack</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>LESS</li>
+							</ul>
+						</div>
+						<div class="item">
+							<h3 class="name">
+								Deployment
+							</h3>
+							<ul class="keywords">
+								<li>AWS EC2</li>
+								<li>nginx</li>
+							</ul>
+						</div>
+						<div class="item">
+							<h3 class="name">
+								Tools
+							</h3>
+							<ul class="keywords">
+								<li>vim</li>
+								<li>git</li>
+								<li>Pycharm</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+
+				<section class="section">
+					<header>
+						<h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+					</header>
+					<section id="work">
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-down"></span>
+									</span>
+									<div class="position">
+										Web Programmer
+									</div>
+									<div class="company">
+										BalanceCareer
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2016
+										</span>
+										<span class="endDate">
+											- December 2016
+										</span>
+									</div>
+								</header>
+
+                                <span class="website">
+                                    <a href="https://studysearch.co.kr/">https://studysearch.co.kr/</a>
+                                </span>
+
+
+								<div class="item display" style="opacity:1">
+									<div class="summary">
+										<p><p>발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 몇개월간 세일즈 팀에서 예비고객을 실제 결제 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 주로 개발했습니다.</p></p>
+									</div>
+									<ul class="highlights">
+											<li>Django view에서 데이터를 처리하고 JSON으로 보내어 React로 데이터 필터링, Tabular view등을 구현해 어드민 사용자가 데이터를 쉽게 볼 수 있도록 개발했습니다.</li>
+											<li>상담을 동해 스터디를 소개할 때, 데스크탑과 모바일 환경 모두에서 커리큘럼과 리더의 소개를 더 잘 보일수 있는 소개 페이지를 제작 했습니다. ex) https://studysearch.co.kr/introduce/1734/</li>
+											<li>Flux 패턴을 활용해 다양한 컴포넌트, 페이지에서 동시에 갱신되는 Notification을 구현했습니다.</li>
+											<li>매주 스터디룸의 예약목록을 스프레드 시트로 만들고, 각 스터디룸 담당자에게 보내고 예약이 가능한지 회신받는  과정을 Google Drive, Sheets API, xlsxwriter를 활용해 Celery 태스크로 자동화 하였습니다</li>
+											<li>기존에 우선 기능 구현만을 위해 작성된 코드등을 보다 나은 가독성, 퍼포먼스를 위한 리팩토링, DB Transaction을 줄이기 위한 Django ORM 쿼리 최적화 작업을 했습니다.</li>
+									</ul>
+							</div>
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Programmer
+									</div>
+									<div class="company">
+										Wolsemap
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2016
+										</span>
+										<span class="endDate">
+											- December 2016
+										</span>
+									</div>
+								</header>
+
+                                <span class="website">
+                                    <a href="http://curzy.xyz/">http://curzy.xyz/</a>
+                                </span>
+
+
+								<div class="item display none" style="opacity:0">
+									<div class="summary">
+										<p><p>서울 지하철 월세 지도. 독일의 부동산 사이트 immobilienscout24의 독일 도시별 지하철 노선도 주변 one-room apartment의 평균 가격을 나타내는 Miet-Map에 영향을 받아 시작한 프로젝트 입니다. 서울 수도권 지하철 노선을 따라 조금 더 한국에 맞추어 보증금, 월세의 평균 정보를 나타내어 서울에서, 홀로, 살기 위해 가장 기본적이고 중요한 '주'의 비용에 대한 기준을 세울 수 있는 지표를 보여주려 하였습니다.</p></p>
+									</div>
+									<ul class="highlights">
+											<li>nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.</li>
+											<li>다방, 직방의 API요청과 응답의 구조를 분석하여 매일 밤 지하철 역별 평균 월세 정보를 가져오고 있습니다</li>
+											<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.</li>
+											<li>Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.</li>
+											<li>비동기 태스크를 위한 Celery를 온전히 사용하기 위해 멀티쓰레딩을 제거하고 태스크만으로 돌아가게 하였더니 크롤링 시간이 오래되어 Celery Chord, Chain등을 찾아보고, 효율화 하려고 합니다.</li>
+											<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 네이버 부동산 크롤링</li>
+									</ul>
+							</div>
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Internship
+									</div>
+									<div class="company">
+										Vingle
+									</div>
+									<div class="date">
+										<span class="startDate">
+											April 2015
+										</span>
+										<span class="endDate">
+											- July 2015
+										</span>
+									</div>
+								</header>
+
+                                <span class="website">
+                                    <a href="https://vingle.net/">https://vingle.net/</a>
+                                </span>
+
+
+								<div class="item display none" style="opacity:0">
+									<div class="summary">
+										<p><p>서비스 기획 인턴십으로 다양한 주제에 대한 아이디에이션, 프로토타입 기획을 했습니다.</p></p>
+									</div>
+							</div>
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Assistant Engineer
+									</div>
+									<div class="company">
+										Samsung Electronics
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2014
+										</span>
+										<span class="endDate">
+											- February 2015
+										</span>
+									</div>
+								</header>
+
+                                <span class="website">
+                                    <a href="http://www.samsung.com/sec/">http://www.samsung.com/sec/</a>
+                                </span>
+
+
+								<div class="item display none" style="opacity:0">
+									<div class="summary">
+										<p><p>입사후 처음엔 개발용 시료들을 해외 연구소로 보내는 TF팀에서 통관 관련 서류 작업을 하였습니다. 개발과는 전혀 관련이 없는 업무였지만 업무중 마주하는 문제들을 프로그래밍을 활용해 해결했습니다. </p></p>
+									</div>
+									<ul class="highlights">
+											<li>해외로 보낼 시료들의 일련번호가 다른 양식으로 되어 시스템 처리가 되지 않을때 정규식을 활용해 파이썬으로 알맞는 양식으로 가공했고.</li>
+											<li>Nodejs를 활용한 간단한 웹으로 배송 요청을 받고 보낼 국가별 남은 요청 수, 등을 한눈에 볼 수 있게 하였습니다.</li>
+											<li>이후, 안드로이드 폰들의 네트워크 프로토콜을 QA하는 업무를 맡게 되었는데, 테스트 과정에서의 불편한 작업, 반복 작업등을 효율화 하는것을 고민하고, 윈도우 배치파일을 활용하여 테스트 과정을 일부 자동화 했습니다.</li>
+									</ul>
+							</div>
+					</section>
+				</section>
+
+
+				<section class="section">
+					<header>
+						<h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+					</header>
+					<section id="education">
+							<header class="clear">
+								<span class="space-left">
+										<span class="fa fa-caret-down"></span>
+								</span>
+								<div class="header-left">
+										<div class="area">
+											Information &amp; Communication
+										</div>
+										<div class="institution">
+											Sunrin Internet Highschool
+										</div>
+								</div>
+								<div class="date">
+									<span class="startDate">
+										2011
+									</span>
+									<span class="endDate">
+										- 2014
+									</span>
+								</div>
+							</header>
+
+
+                <ul class="courses">
+                    <li>Programming Languages - C, Java</li>
+                    <li>Network</li>
+                    <li>Operationg System</li>
+                    <li>Algorithm</li>
+                    <li>Computer Graphic Tools</li>
+                </ul>
+
+								<div class="item display" style="opacity:1">
+							</div>
+					</section>
+				</section>
+
+				<section class="section">
+					<header>
+						<h2 class='section-title'>Awards</h2>
+					</header>
+					<section id="awards">
+						<header class="clear">
+							<span class="space-left">
+									<span class="fa fa-caret-down"></span>
+							</span>
+							<div class="header-left">
+									<div class="title">
+										Smarteen App Challenge 2013
+									</div>
+									<div class="awarder">
+										SK Planet
+									</div>
+							</div>
+								<div class="date">
+									2013
+								</div>
+						</header>
+							<div class="item display" style="opacity:1">
+								<div class="summary">
+									<p><p>인간의 수면 패턴에 맞추어 알맞는 수면 시간을 설정할 수 있도록 유도하고 알람 30분 이내에 서서히 청각적 감각을 자극하고, 알람 시간이 되면 플래시를 활용해 사용자를 보다 잘 깨어날 수 있도록 유도하는 앱 1:30을 기획, 제작하였습니다.</p></p>
+								</div>
+						</div>
+						<header class="clear">
+							<span class="space-left">
+									<span class="fa fa-caret-right"></span>
+							</span>
+							<div class="header-left">
+									<div class="title">
+										Smarteen App Challenge 2012
+									</div>
+									<div class="awarder">
+										SK Planet
+									</div>
+							</div>
+								<div class="date">
+									2012
+								</div>
+						</header>
+							<div class="item display none" style="opacity:0">
+								<div class="summary">
+									<p><p>사용자의 이동 경로, 앞으로의 목표까지의 가이드, 열량소모, 속도계, 수분 소모량 등 자전거 라이딩시 사용자에게 필요한 정보를 제공하는, 자전거 라이딩 매니지먼트 앱 PSYCLE을 기획, 제작하였습니다. 개발을 진행하며 UX에 대한 고민, 사용자가 자전거에 스마트폰 거치대를 설치하고 운전 도중 얼마나 전방에서 시선을 떼는것을 최소화 하고 필요한 정보를 얻을 수 있을지, 핸들에서 손을 놓고 폰을 조작하는 일을 최소화 할 수 있을지 직접 자전거를 타며 테스트하고 생각하며 보다 나은 경험을 제공할 수 있도록 고민해왔습니다.</p></p>
+								</div>
+						</div>
+					</section>
+				</section>
+
+
+				<section class="section margin1">
+					<header>
+						<h2 class='section-title'>Languages</h2>
+					</header>
+					<section id="languages">
+							<div class="display">
+										<h3 class="language">
+											Korean
+										</h3>
+								<div class="item">
+										<div class="level fluency native speaker">
+											<em>Native Speaker</em>
+											<div class="bar"></div>
+										</div>
+								</div>
+							</div>
+							<div class="display">
+										<h3 class="language">
+											English
+										</h3>
+								<div class="item">
+										<div class="level fluency intermediate">
+											<em>Intermediate</em>
+											<div class="bar"></div>
+										</div>
+								</div>
+							</div>
+					</section>
+				</section>
+
+				<section class="section margin1">
+					<header>
+						<h2 class='section-title' class='section-title'>Interests</h2>
+					</header>
+					<section id="interests">
+							<div class="item">
+									<h3 class="name">
+										Game
+									</h3>
+									<ul class="keywords">
+											<li>Warcraft Series</li>
+											<li>Dungeon Crawl Stone Soup</li>
+									</ul>
+							</div>
+							<div class="item">
+									<h3 class="name">
+										Music
+									</h3>
+									<ul class="keywords">
+											<li>Playing Guitar</li>
+											<li>Playing Bass</li>
+											<li>Funk</li>
+											<li>Disco</li>
+											<li>Jazz</li>
+									</ul>
+							</div>
+							<div class="item">
+									<h3 class="name">
+										냉면
+									</h3>
+									<ul class="keywords">
+											<li>평양냉면</li>
+									</ul>
+							</div>
+							<div class="item">
+									<h3 class="name">
+										Recently Reading
+									</h3>
+									<ul class="keywords">
+											<li>클린 코드를 위한 테스트 주도 개발 (파이썬을 이용한)</li>
+											<li>디스커버리 Go 언어</li>
+											<li>향수</li>
+									</ul>
+							</div>
+					</section>
+				</section>
+
+		</div>
+		<script>
 			(function(){
 				var elements = document.querySelector("#resume");
 
@@ -431,5 +1145,6 @@ Music
 				elements.style.opacity = '1';
 			})();
 		</script>
-<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+	</body>
+
 </html>
