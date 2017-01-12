@@ -789,6 +789,44 @@ ul.courses li:hover {
 											<span class="fa fa-caret-down"></span>
 									</span>
 									<div class="position">
+										Programmer
+									</div>
+									<div class="company">
+										Wolsemap
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2016
+										</span>
+										<span class="endDate">
+											- January 2017
+										</span>
+									</div>
+								</header>
+
+                                <span class="website">
+                                    <a href="http://curzy.xyz/">http://curzy.xyz/</a>
+                                </span>
+
+
+								<div class="item display" style="opacity:1">
+									<div class="summary">
+										<p><p>서울 지하철 월세 지도. 독일의 부동산 사이트 immobilienscout24의 독일 도시별 지하철 노선도 주변 one-room apartment의 평균 가격을 나타내는 Miet-Map에 영향을 받아 시작한 프로젝트 입니다. 서울 수도권 지하철 노선을 따라 조금 더 한국에 맞추어 보증금, 월세의 평균 정보를 나타내어 서울에서, 홀로, 살기 위해 가장 기본적이고 중요한 '주'의 비용에 대한 기준을 세울 수 있는 지표를 보여주려 하였습니다.</p></p>
+									</div>
+									<ul class="highlights">
+											<li>nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.</li>
+											<li>다방, 직방의 API요청과 응답의 구조를 분석하여 매일 밤 지하철 역별 평균 월세 정보를 가져오고 있습니다</li>
+											<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.</li>
+											<li>Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.</li>
+											<li>비동기 태스크를 위한 Celery를 온전히 사용하기 위해 멀티쓰레딩을 제거하고 태스크만으로 돌아가게 하였더니 크롤링 시간이 오래되어 Celery Chord, Chain등을 찾아보고, 효율화 하려고 합니다.</li>
+											<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 네이버 부동산 크롤링</li>
+									</ul>
+							</div>
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
 										Web Programmer
 									</div>
 									<div class="company">
@@ -809,7 +847,7 @@ ul.courses li:hover {
                                 </span>
 
 
-								<div class="item display" style="opacity:1">
+								<div class="item display none" style="opacity:0">
 									<div class="summary">
 										<p><p>발란스커리어는 영어 회화 그룹 스터디 매칭 서비스 스터디서치를 운영하고 있는 스타트업 입니다. 2월에 입사해 몇개월간 세일즈 팀에서 예비고객을 실제 결제 고객으로 유도해내었고, 현재는 스터디서치 세일즈팀을 위한 툴, 사업기획, 마케팅 담당자들을 위한 데이터 통계, 어드민을 주로 개발했습니다.</p></p>
 									</div>
@@ -819,44 +857,6 @@ ul.courses li:hover {
 											<li>Flux 패턴을 활용해 다양한 컴포넌트, 페이지에서 동시에 갱신되는 Notification을 구현했습니다.</li>
 											<li>매주 스터디룸의 예약목록을 스프레드 시트로 만들고, 각 스터디룸 담당자에게 보내고 예약이 가능한지 회신받는  과정을 Google Drive, Sheets API, xlsxwriter를 활용해 Celery 태스크로 자동화 하였습니다</li>
 											<li>기존에 우선 기능 구현만을 위해 작성된 코드등을 보다 나은 가독성, 퍼포먼스를 위한 리팩토링, DB Transaction을 줄이기 위한 Django ORM 쿼리 최적화 작업을 했습니다.</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Programmer
-									</div>
-									<div class="company">
-										Wolsemap
-									</div>
-									<div class="date">
-										<span class="startDate">
-											February 2016
-										</span>
-										<span class="endDate">
-											- December 2016
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://curzy.xyz/">http://curzy.xyz/</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>서울 지하철 월세 지도. 독일의 부동산 사이트 immobilienscout24의 독일 도시별 지하철 노선도 주변 one-room apartment의 평균 가격을 나타내는 Miet-Map에 영향을 받아 시작한 프로젝트 입니다. 서울 수도권 지하철 노선을 따라 조금 더 한국에 맞추어 보증금, 월세의 평균 정보를 나타내어 서울에서, 홀로, 살기 위해 가장 기본적이고 중요한 '주'의 비용에 대한 기준을 세울 수 있는 지표를 보여주려 하였습니다.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.</li>
-											<li>다방, 직방의 API요청과 응답의 구조를 분석하여 매일 밤 지하철 역별 평균 월세 정보를 가져오고 있습니다</li>
-											<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.</li>
-											<li>Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.</li>
-											<li>비동기 태스크를 위한 Celery를 온전히 사용하기 위해 멀티쓰레딩을 제거하고 태스크만으로 돌아가게 하였더니 크롤링 시간이 오래되어 Celery Chord, Chain등을 찾아보고, 효율화 하려고 합니다.</li>
-											<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 네이버 부동산 크롤링</li>
 									</ul>
 							</div>
 								<header>
