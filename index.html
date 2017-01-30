@@ -717,7 +717,7 @@ ul.courses li:hover {
 
 					<section class="section main-summary">
 						<section>
-							<div><p>생각하고, 만드는것을 좋아하는 프로그래머 최민석입니다. 이전의 경험들, 어플리케이션 기획, 제품의 신뢰도와 품질을 담당하는 QA, 실수가 있어서는 안되는 꼼꼼함이 요구되는 통관 사무, 서비스에 관심을 가진 예비 고객을 실제 고객으로 유치하는 세일즈 등 다양한 경험을 바탕으로, 다양한 각도에서 생각하고, 보다 나은 개발자가 되려고 학습합니다</p></div>
+							<div><p>생각하고, 만드는것을 좋아하는 프로그래머 최민석입니다. 다양한 각도에서 생각하고, 보다 나은 개발자가 되려고 학습합니다</p></div>
 						</section>
 					</section>
 
@@ -799,7 +799,7 @@ ul.courses li:hover {
 											February 2016
 										</span>
 										<span class="endDate">
-											- January 2017
+											- February 2017
 										</span>
 									</div>
 								</header>
@@ -816,10 +816,10 @@ ul.courses li:hover {
 									<ul class="highlights">
 											<li>nginx + uWSGI + Django로 AWS EC2에서 서비스 하고 있습니다.</li>
 											<li>다방, 직방의 API요청과 응답의 구조를 분석하여 매일 밤 지하철 역별 평균 월세 정보를 가져오고 있습니다</li>
-											<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하고 있습니다.</li>
+											<li>Django + Celery로 매일밤 지하철 역에 대한 요청을 보내 JSON데이터를 받아 크롤링하며 Network 응답 시간에 따른 Block을 줄이기위해 Threading을 사용하였다가, 파이썬에서 Thread를 활용하는 문제때문에, 변경하였습니다.</li>
 											<li>Front에서 JSON으로 가공된 데이터를 react-d3를 활용하여 월세, 보증금의 변화를 그래프로 그리고 있습니다.</li>
-											<li>비동기 태스크를 위한 Celery를 온전히 사용하기 위해 멀티쓰레딩을 제거하고 태스크만으로 돌아가게 하였더니 크롤링 시간이 오래되어 Celery Chord, Chain등을 찾아보고, 효율화 하려고 합니다.</li>
-											<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 네이버 부동산 크롤링</li>
+											<li>비동기 태스크를 위한 Celery를 온전히 사용하기 위해 멀티쓰레딩을 제거하고 Celery Worker프로세서의 수를 늘려 크롤링 시간을 줄였습니다.</li>
+											<li>Will: 호선별, 지역별 데이터 통계, 그래프 제공, async, 네이버 부동산 크롤링, 지하철 노선도 리디자인 with SVG</li>
 									</ul>
 							</div>
 								<header>
