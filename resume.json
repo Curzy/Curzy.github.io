@@ -133,7 +133,7 @@
       "website": "https://github.com/py-bson/bson/graphs/contributors",
       "startDate": "2017-02-01",
       "endDate": "2017-02-01",
-      "summary": "bson 프로젝트의 버그 수정, 코드 컨벤션, 레거시 코드 제거 등에 기여하였습니다.",
+      "summary": "bson 프로젝트의 버그 수정, 코드 컨벤션, 레거시 코드 제거에 기여하였습니다.",
       "highlights": [
         "Binary decode 버그 수정 <a target='_blank' href='https://github.com/py-bson/bson/pull/56'>Pull Request</a>",
         "레거시 코드 제거 <a target='_blank' href='https://github.com/py-bson/bson/pull/54'>Pull Request</a>",
