@@ -149,6 +149,20 @@
   ],
   "volunteer": [
     {
+      "organization": "Adobe Fonts",
+      "position": "Contributor",
+      "website": "https://github.com/adobe-fonts/source-code-pro",
+      "startDate": "2017-09-13",
+      "endDate": "2017-10-03",
+      "summary": ".",
+      "highlights": [
+        "source-code-pro 폰트의 빌드에서 Python 3환경에서 빌드가 불가하여 Python 3와의 호환이 가능하도록 수정하였습니다. <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/170'>Pull Request</a>",
+        "source-code-pro 폰트의 빌드에서 bash에서는 잘 동작하지만 zsh에서 동작이 되지 않는 부분을 수정하였습니다.  <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/169'>Pull Request</a>",
+        "위 두 수정에 대해 어도비 OpenType 폰트 개발에 사용되는 근간인 <a target='_blank' href='http://www.adobe.com/devnet/opentype/afdko.html'>AFDKO(Adobe Font Development Kit for OpenType)</a>가 Python 2릉 강제하는데 source-code-pro의 Python 3호환이 무슨 소용이 있냐는 다른 사용자의 의견이 있었으나, Adobe측에서 지원이 중단될 예정인 Python 2에 묶여있을 필요가 없다 하여 제 풀 리퀘스트가 병합되었습니다.",
+        "다만 느낀점은 오픈소스에 기여 할 때 제가 사용하는 환경(OSX + zsh)에서 겪는 어려움을 해결하는 과정에서 또 다른 환경의 사용자가 가질 수 있는 문제를 고려할 필요가 있다는 것을 새겼습니다."
+      ]
+    },
+    {
       "organization": "flake8",
       "position": "Tried to Contribute",
       "website": "https://gitlab.com/pycqa/flake8",
@@ -186,20 +200,6 @@
         "그 외 Volunteer 섹션의 웹 사이트 주소 CSS변경이나, @media print시에 여백을 조금 더 넉넉하게 주어 이력서를 자연스럽게 출력, pdf로 저장할 수 있도록 수정했습니다.",
         "<a target='_blank' href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/18'>Pull Request</a>",
         "원본 테마가 새버전으로 배포되기 전까지 사용하기 위해 npm에 제 커스텀 테마를 올려두었습니다. <a target='_blank' href='https://www.npmjs.com/package/jsonresume-theme-curzy'>npm</a>"
-      ]
-    },
-    {
-      "organization": "Adobe Fonts",
-      "position": "Contributor",
-      "website": "https://github.com/adobe-fonts/source-code-pro",
-      "startDate": "2017-09-13",
-      "endDate": "2017-10-03",
-      "summary": ".",
-      "highlights": [
-        "source-code-pro 폰트의 빌드에서 Python 3환경에서 빌드가 불가하여 Python 3와의 호환이 가능하도록 수정하였습니다. <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/170'>Pull Request</a>",
-        "source-code-pro 폰트의 빌드에서 bash에서는 잘 동작하지만 zsh에서 동작이 되지 않는 부분을 수정하였습니다.  <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/169'>Pull Request</a>",
-        "위 두 수정에 대해 어도비 OpenType 폰트 개발에 사용되는 근간인 <a target='_blank' href='http://www.adobe.com/devnet/opentype/afdko.html'>AFDKO(Adobe Font Development Kit for OpenType)</a>가 Python 2릉 강제하는데 source-code-pro의 Python 3호환이 무슨 소용이 있냐는 다른 사용자의 의견이 있었으나, Adobe측에서 지원이 중단될 예정인 Python 2에 묶여있을 필요가 없다 하여 제 풀 리퀘스트가 병합되었습니다.",
-        "다만 느낀점은 오픈소스에 기여 할 때 제가 사용하는 환경(OSX + zsh)에서 겪는 어려움을 해결하는 과정에서 또 다른 환경의 사용자가 가질 수 있는 문제를 고려할 필요가 있다는 것을 새겼습니다."
       ]
     }
   ],
