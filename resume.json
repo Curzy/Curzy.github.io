@@ -154,7 +154,7 @@
       "website": "https://github.com/adobe-fonts/source-code-pro",
       "startDate": "2017-09-13",
       "endDate": "2017-10-03",
-      "summary": ".",
+      "summary": "어도비 사의 User Interface와 프로그래밍 환경을 위한 monospace 폰트 Source Code Pro에 폰트 빌드 환경에 관한 기여를 하였습니다.",
       "highlights": [
         "source-code-pro 폰트의 빌드에서 Python 3환경에서 빌드가 불가하여 Python 3와의 호환이 가능하도록 수정하였습니다. <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/170'>Pull Request</a>",
         "source-code-pro 폰트의 빌드에서 bash에서는 잘 동작하지만 zsh에서 동작이 되지 않는 부분을 수정하였습니다.  <a target='_blank' href='https://github.com/adobe-fonts/source-code-pro/pull/169'>Pull Request</a>",
