@@ -19,11 +19,6 @@
         "url": "https://www.facebook.com/Curzy.choi"
       },
       {
-        "network": "Tumblr",
-        "username": "Curzy95",
-        "url": "https://curzy95.tumblr.com"
-      },
-      {
         "network": "Codepen",
         "username": "Curzy",
         "url": "http://codepen.io/Curzy/"
@@ -32,11 +27,18 @@
   },
   "work": [
     {
+      "company": "Dunamu",
+      "position": "Programmer",
+      "website": "https://upbit.com/",
+      "startDate": "2018-04-16",
+      "summary": "Upbit Web frontend developer"
+    },
+    {
       "company": "Move",
       "position": "Programmer",
       "website": "http://move.is/",
       "startDate": "2017-04-03",
-      "endDate": "2017-08-27",
+      "endDate": "2017-08-30",
       "summary": "대입 수험생들의 입학 가능성을 진단하는 <a target='_blank' href='https://apply.orbi.kr'>오르비 모의지원</a>을 개발하였습니다. 오르비 모의지원은 매년 약 4만명 이상의 수험생의 데이터를 확보하여, 예측 알고리즘을 통해 지원 가능성을 제공했습니다. 저는 이 프로젝트에서 합격 커트라인 알고리즘 코어를 제외한, 유저 뷰 단, 자사 다른 서비스와 통신하는 API, 점수 입력부터 대학별 점수로의 변환 로직, 어드민 등 서비스 파트를 개발하였습니다. ",
       "highlights": [
         "Python2, 그리고 여러 레거시가 남아있는 <a target='_blank' href='https://faitcalc.orbi.kr'>(구)오르비 모의지원</a>을 대학의 학과간의 연관관계 데이터, 학과의 히스토리 추적을 위한 DB 관계 리모델링 등 나은 예측을 위한 목적으로 다시 개발되는 프로젝트에 참여했습니다.",
@@ -199,11 +201,7 @@
     {
       "name": "Web Back-end",
       "keywords": [
-        "Django",
-        "Flask",
-        "ORM(Django, SQLAlchemy)",
-        "Celery",
-        "PostgreSQL"
+        "Django"
       ]
     },
     {
@@ -221,8 +219,7 @@
       "name": "Deployment",
       "keywords": [
         "AWS EC2",
-        "AWS CodeDeploy",
-        "nginx"
+        "AWS CodeDeploy"
       ]
     },
     {
@@ -230,8 +227,7 @@
       "keywords": [
         "vim",
         "git",
-        "Pycharm",
-        "Adobe Experience Design"
+        "Pycharm"
       ]
     }
   ],
@@ -274,8 +270,7 @@
       "name": "Recently Reading",
       "keywords": [
         "클린 코드를 위한 테스트 주도 개발 (파이썬을 이용한)",
-        "Mastering Bitcoin 2nd Edition - Programming the Open Blockchain",
-        "대학음악이론"
+        "Mastering Bitcoin 2nd Edition - Programming the Open Blockchain"
       ]
     }
   ],
